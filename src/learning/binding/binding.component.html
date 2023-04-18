@@ -1,0 +1,22 @@
+Username:
+<input type="text" [(ngModel)]="username" />
+<h4>{{username}}</h4>
+
+<h4>Our Courses</h4>
+<li *ngFor="let item of items let i=index trackBy:trackById" (click)="onItemClicked(item)">
+  {{i+1}} - {{item.id}} - {{item.name}} - {{item.fee}}
+</li>
+
+<div *ngIf="clicked; then show else warn"></div>
+<ng-template #show>
+  You have selected:
+  <input type="text" [(ngModel)]="clickedItem.name">
+</ng-template>
+
+<ng-template #warn>
+  <h4 class="text-danger">Please select a course to enroll </h4>
+</ng-template>
+
+<button [disabled]="buttonStatus"(click)="save($event)">
+  Enroll for the course
+</button>
