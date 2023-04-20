@@ -32,34 +32,34 @@ export class ProductsService{
       {
         ProductId:1,
         ArtNo:"101",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"MI",
+        ProviderArtNo:"23R",
+        Brand:"MI",
+        Price:78100.23,
+        BuyAccount:"245",
+        SalesAccount:"143"
 
       },
       {
         ProductId:1,
         ArtNo:"102",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"Realme",
+        ProviderArtNo:"zxi",
+        Brand:"Realme",
+        Price:17810.23,
+        BuyAccount:"103",
+        SalesAccount:"555"
 
       },
       {
         ProductId:1,
         ArtNo:"103",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"IPhone",
+        ProviderArtNo:"uf2g",
+        Brand:"Apple",
+        Price:117810.23,
+        BuyAccount:"909",
+        SalesAccount:"398"
 
       },
     ];
@@ -81,45 +81,45 @@ export class ProductsService{
       {
         ProductId:1,
         ArtNo:"101",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"MI",
+        ProviderArtNo:"23R",
+        Brand:"MI",
+        Price:78100.23,
+        BuyAccount:"245",
+        SalesAccount:"143"
 
       },
       {
         ProductId:1,
         ArtNo:"102",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"Realme",
+        ProviderArtNo:"zxi",
+        Brand:"Realme",
+        Price:17810.23,
+        BuyAccount:"103",
+        SalesAccount:"555"
 
       },
       {
         ProductId:1,
         ArtNo:"103",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"IPhone",
+        ProviderArtNo:"uf2g",
+        Brand:"Apple",
+        Price:117810.23,
+        BuyAccount:"909",
+        SalesAccount:"398"
 
       },
       {
         ProductId:1,
         ArtNo:"104",
-        Provider:"OppoProvider",
-        ProviderArtNo:"1YU",
-        Brand:"Oppo",
-        Price:7810.23,
-        BuyAccount:"123",
-        SalesAccount:"321"
+        Provider:"Sumsung s23",
+        ProviderArtNo:"UYU",
+        Brand:"Sumsung",
+        Price:117810.23,
+        BuyAccount:"678",
+        SalesAccount:"361"
 
       }
     ];

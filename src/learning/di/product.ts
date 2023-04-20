@@ -1,4 +1,4 @@
-// Model-ORM-DTO,Object Model-schema
+ // Model-ORM-DTO,Object Model-schema
 export class Product{
 
   constructor(

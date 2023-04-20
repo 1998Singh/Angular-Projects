@@ -9,7 +9,7 @@ import { TrackbyComponent } from 'src/learning/binding/trackby.component';
 
 @NgModule({
   declarations: [
-    AppComponent,BindingComponent
+    AppComponent,BindingComponent,TrackbyComponent
   ],
   imports: [
     BrowserModule,
