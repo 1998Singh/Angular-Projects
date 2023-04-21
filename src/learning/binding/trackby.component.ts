@@ -26,4 +26,5 @@ export class TrackbyComponent implements OnInit {
       return companyProduct.ArtNo;
 
   }
+
 }
