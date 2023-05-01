@@ -54,7 +54,7 @@ export class ParentComponent implements OnInit {
 
 export class PriceQuoterComponent implements OnInit, ILogger {
   @Output()
-  lastPriceEvent: EventEmitter<IPriceQuote> = new EventEmitter();//strongly typed event
+  lastPriceEvent: EventEmitter<IPriceQuote> = new EventEmitter();  //strongly typed event
   company: string = "evoke technologies"
   price: number = 0;
   constructor() {
