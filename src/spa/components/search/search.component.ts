@@ -88,33 +88,35 @@ export class SearchDetailsComponent
  ngOnInit() {
    //fired only once, make api calls here (ajax) and update state
    //subscribe to web sockets, observables, cookies
-   console.log(`In ngInit: ${this.search}`)//
-   /*
-  setTimeout(()=>{
+   console.log(`In ngInit: ${this.search}`)  
+ 
+   setTimeout(()=>{
       this.cd.reattach()
   },5000)
-*/
+
  }
  ngDoCheck():void{
   //every time state changes 
   console.log(`In onCheck: ${this.search}`)
   //CDS(change detection strategy) decide whether to render or not.
-  if(this.search.length>3){
-      this.cd.detectChanges()
-  }
+  // if(this.search.length>3){
+  //     this.cd.detectChanges()
+  // }
 
  }
 
-//  ngAfterViewChecked(){
-//   //this is called every time  when state changes or detect changes
-//   //manuplate DOM
-//   console.log(`ng  after view checked: ${this.search}`)
-//  }
+ // event
 
-//  ngOnDestroy():void{
+  ngAfterViewChecked(){
+    //this is called every time  when state changes or detect changes
+//   //manuplate DOM(Document Object Model).
+  console.log(`ng  after view checked: ${this.search}`)
+ }
+
+ ngOnDestroy():void{
 //   //fired only once when comp removed from shadow dom
 //   //cache process -cache, unsubscribe to websocket, observable
-//   console.log(`im destroyed...`)
-//  }
+   console.log(`i m destroyed...`)
+ }
 
 }
