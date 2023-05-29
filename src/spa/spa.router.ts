@@ -17,6 +17,7 @@ import { ShowComponent } from "./pages/show.component";
 
   {path:'show/:selected',component:ShowComponent},
 
+   {path:'about', loadChildren:()=>import('./about/about.module').then(m=>m.AboutModule) },
 
   {path:'**',component:PageNotFoundComponent}
 ]
