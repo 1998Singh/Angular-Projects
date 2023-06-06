@@ -4,6 +4,7 @@ import { PageNotFoundComponent } from "./pages/home/notfound/pagenotfound.compon
 import { LoginComponent } from "./pages/home/login/login.component";
 import { ContactListComponent } from "./pages/contacts/contactlist.component";
 import { ShowComponent } from "./pages/show.component";
+import { AuthGuard } from "./services/guards/auth.guard";
 
 
 
@@ -13,7 +14,7 @@ import { ShowComponent } from "./pages/show.component";
 
   {path:'login',component:LoginComponent},
 
-  {path:'contacts',component:ContactListComponent},
+  {path:'contacts',canActivate:[AuthGuard],component:ContactListComponent},
 
   {path:'show/:selected',component:ShowComponent},
 

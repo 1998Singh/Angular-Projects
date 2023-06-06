@@ -16,7 +16,7 @@ Our core services and solutions span the areas of DIGITIZATION, APP DEV, QUALITY
 CRM, ERP, AI/ML, ANALYTICS, & DATA ENGINEERING. We operate through 8 COEs and serve 11 industries.
 
 Evoke has recently earned top recognition for its work culture, twice in a row. We are rated amongst the top 100 IT companies by the Great Place To Work
-(GPTW). One of the reasons why we take pride in our exceptional Delivery Track Record and having the industry’s highest repeat customers. Come, experience 
+(GPTW). One of the reasons why we take pride in our exceptional Delivery Track Record and having the industry,s highest repeat customers. Come, experience 
 Value Engineering!
 
 </p>
